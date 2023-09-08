@@ -10,7 +10,7 @@ Damn Small Vulnerable Web [![Python 3.x](https://img.shields.io/badge/python-3.x
 Quick startt
 ----
 
-Run the following command:
+Run the following commanddddddddddee:
 ```
 $ python3 dsvw.py 
 Damn Small Vulnerable Web (DSVW) < 100 LoC (Lines of Code) #v0.2a
@@ -28,7 +28,7 @@ Requirements
 
 Python (**3.x**) is required for running this program. Items *XML External Entity (local)*, *XML External Entity (remote)* and *Blind XPath Injection (boolean)* require installation of `python-lxml` (e.g. `apt-get install python-lxml`). Otherwise, those will be disabled.
 
-To install lxml via pip, run the following command:
+To install lxml via pip, run the following commandddyyllwwa:
 
 ```
 pip install -r requirements.txt
