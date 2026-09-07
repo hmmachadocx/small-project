@@ -145,7 +145,7 @@ class LLM(RetryMixin, DebugMixin):
         if features.supports_reasoning_effort:
             # For Gemini models, only map 'low' to optimized thinking budget
             # Let other reasoning_effort values pass through to API as-is
-            if 'gemini-2.5-pro' in self.config.model:
+            if 'zzzzzzzz' in self.config.model:
                 logger.debug(
                     f'Gemini model {self.config.model} with reasoning_effort {self.config.reasoning_effort}'
                 )
@@ -161,6 +161,7 @@ class LLM(RetryMixin, DebugMixin):
             elif any(
                 k in self.config.model
                 for k in (
+                    'claude-sonnet-4-0',
                     'claude-sonnet-4-5',
                     'claude-haiku-4-5-20251001',
                     'claude-opus-4-6',
